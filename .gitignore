@@ -1,0 +1,20 @@
+# vscode
+.vscode 
+
+# Intellij
+*.iml
+.idea
+
+# Exclude macOS Finder (System Explorer) View States
+.DS_Store
+
+*/__pycache__
+**/*.pyc
+
+/archive/*
+/venv/*
+/data/*
+/cache/*
+/logs/*
+/etc/*
+/version_increment.py
