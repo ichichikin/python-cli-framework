@@ -13,7 +13,6 @@ class Config(metaclass=ConfigMeta):
     SYNC_ATTEMPTS = 100
     SYNC_THROTTLING_S = .2
     FORBID_MULTIPROCESSING_OVERHEAD = False
-    NUMBER_OF_SYMBOLS_TO_DOWNLOAD = 1000
 
     # caching
     CACHE_CLEAN_DELAY_DAYS = 30
